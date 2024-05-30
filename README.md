@@ -64,3 +64,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Prueba Farma Link
+
+Este proyecto es una aplicación web que ofrece un sistema de inicio de sesión (login) junto con funcionalidades para visualizar una lista de productos farmacéuticos, así como detalles sobre cada uno de ellos.
+
+## Tecnologías Utilizadas
+
+- Laravel
+- Jetstream
+- Livewire
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local.
+2. Navega hacia el directorio del proyecto.
+3. Instala las dependencias de PHP utilizando Composer.
+4. Copia el archivo de configuración de ejemplo `.env.example` y renómbralo a `.env`.
+5. Genera una nueva clave de aplicación.
+6. Configura tu base de datos en el archivo `.env` y ejecuta las migraciones.
+7. Inicia el servidor de desarrollo.
+8. Accede a la aplicación en tu navegador web en la dirección `http://localhost:8000`.
+
+## Comandos
+git clone https://github.com/AlejandroBonilla2000/prueba_farma_link.git
+cd prueba_farma_link
+composer install
+cp .env.example .env
+php artisan key:generate
+
+## Configura la base de datos en el archivo .env
+php artisan migrate
+php artisan serve
+
+## Usuario pre diseñado "igual puedes crear uno en register"
+
+Ahora, después de ejecutar los comandos anteriores, tendrás un usuario de prueba con el que puedes iniciar sesión en la aplicación utilizando las credenciales proporcionadas (correo electrónico: test@example.com, contraseña: test). Si necesitas más ayuda, ¡no dudes en preguntar!
+
